@@ -3,6 +3,13 @@ body {
   font-family: "Roboto Condensed", sans-serif;
 }
 
+h2,
+p,
+label,
+i {
+  color: #ffffff;
+}
+
 .titulo {
   font-weight: bold;
 }
@@ -72,6 +79,13 @@ hr {
 
 .boton {
   background-color: #338aa0;
+  border-color: #338aa0;
+  color: #ffffff;
+}
+
+.boton:hover {
+  background-color: #26a6c6;
+  border-color: #26a6c6;
   color: #ffffff;
 }
 
