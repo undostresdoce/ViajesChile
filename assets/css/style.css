@@ -1,11 +1,10 @@
 body {
-  background-color: black; /* Color de fondo negro */
-  font-family: "Roboto Condensed", sans-serif; /* Fuente principal */
-  color: #ffffff; /* Color de texto blanco */
+  background-color: black;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .titulo {
-  font-weight: bold; /* Texto en negrita */
+  font-weight: bold;
 }
 
 /* Separador */
@@ -19,15 +18,15 @@ hr {
 }
 
 .navbar {
-  width: 100%; /* Ancho completo */
-  position: fixed; /* Fijado en la posición */
+  width: 100%;
+  position: fixed;
   z-index: 10; /* Índice z para superponer */
 }
 
 .brand-text-nav,
 .brand-text-footer {
   font-family: "Caveat", cursive;
-  font-size: 40px; /* Tamaño de fuente */
+  font-size: 40px;
 }
 
 .icon {
@@ -52,7 +51,7 @@ hr {
 
 .card-text_size {
   max-height: 305px;
-  overflow: hidden; /* Ocultar el exceso de texto */
+  overflow: hidden;
 }
 
 .quienes-somos,
@@ -90,18 +89,18 @@ footer {
 }
 
 .bg-celeste {
-  background-color: #338aa0; /* Color de fondo */
+  background-color: #338aa0;
 }
 
 /* Estilos para dispositivos móviles */
 @media screen and (max-width: 760px) {
   .icon {
-    max-width: 2rem; /* Reducir el ancho */
-    max-height: 2rem; /* Reducir la altura */
+    max-width: 2rem;
+    max-height: 2rem;
   }
 
   .my-carousel {
-    margin-bottom: 20px; /* Margen inferior */
+    margin-bottom: 20px;
   }
 
   .ocultar-sm {
@@ -109,21 +108,21 @@ footer {
   }
 
   .card {
-    margin-bottom: 20px; /* Margen inferior */
+    margin-bottom: 20px;
     border-radius: 3px; /* Bordes redondeados */
   }
 
   .cards-destacadas {
-    margin-bottom: 20px; /* Margen inferior */
+    margin-bottom: 20px;
   }
 
   .contacto,
   footer {
-    color: #ffffff; /* Color de texto */
+    color: #ffffff;
   }
 
   .brand-text-footer {
-    font-size: 30px; /* Reducir el tamaño de fuente */
+    font-size: 30px;
   }
 }
 
