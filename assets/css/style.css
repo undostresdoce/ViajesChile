@@ -70,3 +70,59 @@ hr {
 .cards-destacadas {
   margin-bottom: 100px;
 }
+
+.boton {
+  background-color: #338aa0;
+  color: #ffffff;
+}
+
+footer {
+  margin-top: 30px; /* Margen superior */
+  color: #ffffff; /* Color de texto */
+}
+
+.footer-icon {
+  display: inline-block; /* Mostrar en línea */
+  padding-top: 5px; /* Espacio superior */
+  margin-right: 12px; /* Margen derecho */
+  font-size: 8px; /* Tamaño de fuente */
+  margin-bottom: 5px; /* Margen inferior */
+}
+
+.bg-celeste {
+  background-color: #338aa0; /* Color de fondo */
+}
+
+/* Estilos para dispositivos móviles */
+@media screen and (max-width: 760px) {
+  .icon {
+    max-width: 2rem; /* Reducir el ancho */
+    max-height: 2rem; /* Reducir la altura */
+  }
+
+  .my-carousel {
+    margin-bottom: 20px; /* Margen inferior */
+  }
+
+  .ocultar-sm {
+    display: none; /* Ocultar en dispositivos pequeños */
+  }
+
+  .card {
+    margin-bottom: 20px; /* Margen inferior */
+    border-radius: 3px; /* Bordes redondeados */
+  }
+
+  .cards-destacadas {
+    margin-bottom: 20px; /* Margen inferior */
+  }
+
+  .contacto,
+  footer {
+    color: #ffffff; /* Color de texto */
+  }
+
+  .brand-text-footer {
+    font-size: 30px; /* Reducir el tamaño de fuente */
+  }
+}
