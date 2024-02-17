@@ -62,32 +62,35 @@
             </div>
         </div>
     </nav>
+
     <!-- Carousel -->
-    <section>
-        <div id="carouselExampleControls" class="carousel slide my-carousel" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="./assets/img/carousel1.jpg" class="d-block w-100 mycarousel-img" alt="img1">
+    <article>
+        <section>
+            <div id="carouselExampleControls" class="carousel slide my-carousel" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./assets/img/carousel1.jpg" class="d-block w-100 mycarousel-img" alt="img1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/carousel2.jpg" class="d-block w-100 mycarousel-img" alt="img2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/carousel3.jpg" class="d-block w-100 mycarousel-img" alt="img3">
+                    </div>
                 </div>
-                <div class="carousel-item">
-                    <img src="./assets/img/carousel2.jpg" class="d-block w-100 mycarousel-img" alt="img2">
-                </div>
-                <div class="carousel-item">
-                    <img src="./assets/img/carousel3.jpg" class="d-block w-100 mycarousel-img" alt="img3">
-                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-    </section>
+        </section>
+    </article>
 
     <!-- Quienes Somos-->
     <article>
@@ -98,7 +101,7 @@
                         <h2 class="centrado">Quienes Somos</h2>
                         <hr>
                     </div>
-                    <!-- cards quienes somos -->
+                    <!-- cards -->
                     <div class="col-4">
                         <div class="card-body">
                             <h5 id="avion" class="titulo bg-celeste centrado"><i class="fas fa-plane"></i></h5>
@@ -140,89 +143,98 @@
         </section>
     </article>
 
-    <!-- Destacados -->
-    <section>
-        <div id="seccion-destacados" class="container cards-destacadas">
-            <div class="row">
-                <div class="col-12">
-                    <h2 class="centrado">Destacados</h2>
-                    <hr>
-                </div>
-                <!-- card1 -->
-                <div class="col-12 col-md-3 d-flex align-items-stretch">
-                    <div class="card card-hover">
-                        <img src="./assets/img/card1.jpg" class="card-img-top" alt="torresdelpaine">
-                        <div class="card-body bg-celeste">
-                            <h5 class="titulo text-white">Parque nacional Torres del Paine</h5>
-                            <p class="card-text text-white">Descubre las imponentes Torres del Paine en el sur de Chile.
-                                Estas majestuosas formaciones rocosas ofrecen vistas espectaculares y aventuras
-                                inolvidables en medio de la salvaje belleza de la Patagonia.</p>
+    <article>
+        <!-- Destacados -->
+        <section>
+            <div id="seccion-destacados" class="container cards-destacadas">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="centrado">Destacados</h2>
+                        <hr>
+                    </div>
+                    <!-- card1 -->
+                    <div class="col-12 col-md-3 d-flex align-items-stretch">
+                        <div class="card card-hover">
+                            <img src="./assets/img/card1.jpg" class="card-img-top" alt="torresdelpaine">
+                            <div class="card-body bg-celeste">
+                                <h5 class="titulo text-white">Parque nacional Torres del Paine</h5>
+                                <p class="card-text text-white">Descubre las imponentes Torres del Paine en el sur de
+                                    Chile.
+                                    Estas majestuosas formaciones rocosas ofrecen vistas espectaculares y aventuras
+                                    inolvidables en medio de la salvaje belleza de la Patagonia.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <!-- card 2-->
-                <div class="col-12 col-md-3 d-flex align-items-stretch">
-                    <div class="card card-hover">
-                        <img src="./assets/img/card2.jpg" class="card-img-top" alt="desierto">
-                        <div class="card-body bg-celeste">
-                            <h5 class="titulo text-white">Desierto de Atacama</h5>
-                            <p class="card-text text-white">Explora la asombrosa belleza del Desierto de Atacama en el
-                                norte de Chile. Con dunas, salares y volcanes, ofrece una experiencia única y
-                                sorprendente.</p>
+                    <!-- card 2-->
+                    <div class="col-12 col-md-3 d-flex align-items-stretch">
+                        <div class="card card-hover">
+                            <img src="./assets/img/card2.jpg" class="card-img-top" alt="desierto">
+                            <div class="card-body bg-celeste">
+                                <h5 class="titulo text-white">Desierto de Atacama</h5>
+                                <p class="card-text text-white">Explora la asombrosa belleza del Desierto de Atacama en
+                                    el
+                                    norte de Chile. Con dunas, salares y volcanes, ofrece una experiencia única y
+                                    sorprendente.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <!-- card 3 -->
-                <div class="col-12 col-md-3 d-flex align-items-stretch">
-                    <div class="card card-hover">
-                        <img src="./assets/img/card3.jpg" class="card-img-top" alt="salar">
-                        <div class="card-body bg-celeste">
-                            <h5 class="titulo text-white">Salar de Atacama</h5>
-                            <p class="card-text text-white">Descubre la belleza única del Salar de Atacama en el norte
-                                de Chile. Con sus vastas extensiones salinas y paisajes surrealistas, te ofrece una
-                                experiencia inolvidable en medio de la naturaleza más impresionante.</p>
+                    <!-- card 3 -->
+                    <div class="col-12 col-md-3 d-flex align-items-stretch">
+                        <div class="card card-hover">
+                            <img src="./assets/img/card3.jpg" class="card-img-top" alt="salar">
+                            <div class="card-body bg-celeste">
+                                <h5 class="titulo text-white">Salar de Atacama</h5>
+                                <p class="card-text text-white">Descubre la belleza única del Salar de Atacama en el
+                                    norte
+                                    de Chile. Con sus vastas extensiones salinas y paisajes surrealistas, te ofrece una
+                                    experiencia inolvidable en medio de la naturaleza más impresionante.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <!-- card 4-->
-                <div class="col-12 col-md-3 d-flex align-items-stretch">
-                    <div class="card card-hover">
-                        <img src="./assets/img/card4.jpg" class="card-img-top" alt="bosques">
-                        <div class="card-body bg-celeste">
-                            <h5 class="titulo text-white">Bosques hermosos</h5>
-                            <p class="card-text text-white">Descubre la belleza única de los bosques de Chile. Desde la
-                                Patagonia hasta la Araucanía, te ofrecen una diversidad natural impresionante.</p>
+                    <!-- card 4-->
+                    <div class="col-12 col-md-3 d-flex align-items-stretch">
+                        <div class="card card-hover">
+                            <img src="./assets/img/card4.jpg" class="card-img-top" alt="bosques">
+                            <div class="card-body bg-celeste">
+                                <h5 class="titulo text-white">Bosques hermosos</h5>
+                                <p class="card-text text-white">Descubre la belleza única de los bosques de Chile. Desde
+                                    la
+                                    Patagonia hasta la Araucanía, te ofrecen una diversidad natural impresionante.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </article>
 
 
-    <!-- Contacto-->
-    <section class="contacto pb-5" id="seccion-contacto">
-        <div class="container">
-            <h2 class="text-center pt-5 pb-3">CONTACTO</h2>
-            <hr class="mb-5" />
-            <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-                <input type="text" class="form-control" id="exampleFormControlInput1"
-                    placeholder="Ingresa tu nombre aquí" />
+
+    <article>
+        <!-- Contacto/form-->
+        <section class="contacto pb-5" id="seccion-contacto">
+            <div class="container">
+                <h2 class="text-center pt-5 pb-3">CONTACTO</h2>
+                <hr class="mb-5" />
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1"
+                        placeholder="Ingresa tu nombre aquí" />
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Asunto</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1"
+                        placeholder="Ingresa el asunto aquí" />
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1"
+                        placeholder="Ingresa tu mensaje aquí" rows="8"></textarea>
+                </div>
+                <button type="button" class="boton btn btn-outline-primary" id="btnEnviar">Enviar</button>
             </div>
-            <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Asunto</label>
-                <input type="text" class="form-control" id="exampleFormControlInput1"
-                    placeholder="Ingresa el asunto aquí" />
-            </div>
-            <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Ingresa tu mensaje aquí"
-                    rows="8"></textarea>
-            </div>
-            <button type="button" class="boton btn btn-outline-primary" id="btnEnviar">Enviar</button>
-        </div>
-    </section>
+        </section>
+    </article>
 
     <footer class="bg-celeste">
         <div class="container">

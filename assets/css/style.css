@@ -77,16 +77,16 @@ hr {
 }
 
 footer {
-  margin-top: 30px; /* Margen superior */
-  color: #ffffff; /* Color de texto */
+  margin-top: 30px;
+  color: #ffffff;
 }
 
 .footer-icon {
-  display: inline-block; /* Mostrar en línea */
-  padding-top: 5px; /* Espacio superior */
-  margin-right: 12px; /* Margen derecho */
-  font-size: 8px; /* Tamaño de fuente */
-  margin-bottom: 5px; /* Margen inferior */
+  display: inline-block;
+  padding-top: 5px;
+  margin-right: 12px;
+  font-size: 8px;
+  margin-bottom: 5px;
 }
 
 .bg-celeste {
@@ -125,4 +125,18 @@ footer {
   .brand-text-footer {
     font-size: 30px; /* Reducir el tamaño de fuente */
   }
+}
+
+/* Resaltar tarjetas */
+.highlight {
+  background-color: #ff1493;
+}
+
+/* Transición suave al hacer hover en tarjetas */
+.card {
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.08); /* Agrandar al hacer hover */
 }
